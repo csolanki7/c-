@@ -1,0 +1,31 @@
+#include <iostream>
+#include <string>
+
+using namespace std; 
+
+int main() {
+
+	int a, b;
+	int addition, substrction, multipaliction, divison, modulus;
+
+	cout << "enter the first number : \n " ;
+
+	cin >> a ;
+
+	cout << " enter the second number : \ "  ;
+	
+	cin >> b  ; 
+
+	addition = a + b;
+	substrction = a - b; 
+	multipaliction = a * b; 
+	divison = a / b;
+
+	cout << "addition : " << addition << endl ; 
+	cout << "substrction : " << substrction << endl ;
+	cout << " multipaliction : " << multipaliction << endl;
+    cout << " divison :" << divison << endl ;
+
+	return 0;
+
+}
