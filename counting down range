@@ -1,0 +1,28 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int A, B;
+	int sum=0; 
+
+
+	cout << " enter the first numer : " << endl;
+	cin >> A;
+
+	cout << " enter the second numer : " << endl;
+	cin >> B;
+
+	for (B; B <= A; B++) {
+		 
+		cout << B << endl; 
+		sum = sum + B ; 
+	}
+	cout << " sum is  :" << sum  << endl; 
+	system(" pause"); 
+	return 0; 
+
+}
+
+
