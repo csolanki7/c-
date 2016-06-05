@@ -1,0 +1,45 @@
+#include <iostream>
+
+using namespace std; 
+
+int main() {
+	
+	int L1,L2;
+	int W1,W2; 
+
+	int R1,R2;
+
+
+	cout << " Enter the lenth for first rectangles : ";
+		cin >>  L1;
+	cout << " Enter the lenth for second rectangles : ";
+	    cin >> L2; 
+     
+	cout << " Enter the width for first rectangles : "; 
+	  cin >> W1; 
+	cout << "Enter the width for seconds rectangles : ";
+	  cin >> W2;  
+
+
+	  R1 = W1 * L1; 
+	  R2 = W2 * L2;
+	  
+	  if (R1 > R2) {
+
+		  cout << " \n The area of first rectangle  is greater than the area of second rectangle  !\n\n ";
+	  }
+
+	  else if (R1 < R2) {
+
+		  cout << " \n The area of first rectangle  is less than the area of second rectangle !\n\n ";
+	  }
+
+	  else if (R1 == R2) {
+
+		  cout << "\n The are of both is rectangles is the same ! ";
+
+	  }
+
+	  system(" pause "); 
+	  return 0; 
+} 
